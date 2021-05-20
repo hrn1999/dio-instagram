@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mangagram</title>
+  </head>
+  <body>
+    <div class="mangagram-wrapper">
+      <div class="mangagram-cover floating">
+        <img src="img/cover-3.png" alt="Manga Cover" />
+      </div>
+      <div class="mangagram-continue">
+        <div class="group">
+          <div class="toggle">
+            <input id="switch" type="checkbox" name="theme" />
+            <label for="switch">Toggle</label>
+          </div>
+          <img
+            src="img/logo.png"
+            alt="mangagram-logo"
+            class="mangagram-logo"
+          />
+          <div class="profile-picture">
+            <img src="img/profile.jpg" alt="Profile Photo" />
+          </div>
+          <a href="#" class="mangagram-login"> Continuar como {username}</a>
+          <a href="#" class="mangagram-logout"> Remover Conta</a>
+        </div>
+        <div class="group">
+          <p class="not-account">Não é {username}?</p>
+          <p class="not-account">
+            <span class="link-blue"> Alterar Conta</span>
+            ou
+            <span class="link-blue">Criar Conta</span>
+          </p>
+        </div>
+        <div class="get-the-app">
+          <p class="get-app">Baixe o Aplicativo</p>
+          <div class="download">
+            <a href="#" class="app-download"></a>
+            <a href="#" class="app-download"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
